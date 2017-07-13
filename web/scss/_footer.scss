@@ -1,0 +1,22 @@
+// ionclude all your related style here in the footer, you can leave it empty if the page has no footer
+footer { 
+    z-index: 2; position: relative;
+    background: $coWhite;
+    border-top: 5px solid $coBlue;
+
+    @include breakpoint(tablet2) {
+        border-top: 3px solid $coBlue;
+    }
+}
+
+.copyright {
+    font-size: 14px;
+    text-align: center;
+    padding: 15px 0;
+
+    @include breakpoint(tablet2) {
+        font-size: 12px;
+        padding-bottom: 50px;
+        padding-top: 10px;
+    }
+}

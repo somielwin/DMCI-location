@@ -1,0 +1,52 @@
+// include all imported fonts here even google fonts
+@charset 'utf-8';
+/** font face **/
+
+
+@font-face {
+    font-family: 'JosefinSansBold';
+    src: url('../fonts/JosefinSansBold.eot');
+    src: url('../fonts/JosefinSansBold.eot') format('embedded-opentype'),
+         url('../fonts/JosefinSansBold.woff2') format('woff2'),
+         url('../fonts/JosefinSansBold.woff') format('woff'),
+         url('../fonts/JosefinSansBold.ttf') format('truetype'),
+         url('../fonts/JosefinSansBold.svg#JosefinSansBold') format('svg');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirLTProMedium.eot');
+    src: url('../fonts/AvenirLTProMedium.eot') format('embedded-opentype'),
+         url('../fonts/AvenirLTProMedium.woff2') format('woff2'),
+         url('../fonts/AvenirLTProMedium.woff') format('woff'),
+         url('../fonts/AvenirLTProMedium.ttf') format('truetype'),
+         url('../fonts/AvenirLTProMedium.svg#AvenirLTProMedium') format('svg');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirLTProLight.eot');
+    src: url('../fonts/AvenirLTProLight.eot') format('embedded-opentype'),
+         url('../fonts/AvenirLTProLight.woff2') format('woff2'),
+         url('../fonts/AvenirLTProLight.woff') format('woff'),
+         url('../fonts/AvenirLTProLight.ttf') format('truetype'),
+         url('../fonts/AvenirLTProLight.svg#AvenirLTProLight') format('svg');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/AvenirLTProRoman.eot');
+    src: url('../fonts/AvenirLTProRoman.eot') format('embedded-opentype'),
+         url('../fonts/AvenirLTProRoman.woff2') format('woff2'),
+         url('../fonts/AvenirLTProRoman.woff') format('woff'),
+         url('../fonts/AvenirLTProRoman.ttf') format('truetype'),
+         url('../fonts/AvenirLTProRoman.svg#AvenirLTProRoman') format('svg');
+    font-style: normal;
+    font-weight: 400;
+}
+
+/** font face **/

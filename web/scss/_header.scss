@@ -1,0 +1,97 @@
+header {
+    background: $coWhite;
+    position: fixed;
+    z-index: 1001;
+    width: 100%;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.16), 0 2px 8px 0 rgba(0,0,0,0.12);
+    @include transition(all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1));
+
+    @include breakpoint(tablet) {
+        .logo {
+            max-width: 130px;
+        }
+
+        .inquire {
+            margin: 14px 0;
+            
+
+            a {
+                line-height: 38px;
+                font-size: 16px;
+
+                @include breakpoint(phablet) {
+                    font-size: 14px;
+                    line-height: 32px;
+                    padding: 0px 15px;
+                    font-family: $defaultFont;
+                    font-weight: 300;
+                    letter-spacing: 0.2;
+                }
+            }
+        }
+    }
+
+    @include breakpoint(phablet) {
+        .logo {
+            max-width: 100px;
+        }
+    }
+
+    &.minimize {
+
+        .logo {
+            max-width: 130px;
+
+            @include breakpoint(phablet) {
+                max-width: 100px;
+            }
+        }
+
+        .inquire {
+            margin: 14px 0;
+
+            a {
+                line-height: 38px;
+                font-size: 16px;
+
+                @include breakpoint(phablet) {
+                    font-size: 14px;
+                    line-height: 32px;
+                    padding: 0px 15px;
+                    font-family: $defaultFont;
+                    font-weight: 300;
+                    letter-spacing: 0.2;
+                }
+            }
+        }
+    }
+}
+
+.logo {
+    max-width: 190px;
+    @include transition(all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1));
+
+    img {
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+}
+
+.inquire {
+    margin: 23px 0;
+    @include transition(all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1));
+    
+    @include breakpoint(phablet) {
+        margin: 11px 0 !important;
+    }
+
+    a.btn {
+        box-shadow: 0 2px 8px 0 rgba(0,0,0,0.12);
+
+        &:hover {
+            background: $coGreenHover;
+            box-shadow: 0 2px 8px 0 rgba(0,0,0,0);
+        }
+    }
+}
