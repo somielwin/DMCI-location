@@ -245,6 +245,7 @@ header.minimize .inquire a {
   -ms-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  margin-top: 5px;
 }
 
 .logo img {
