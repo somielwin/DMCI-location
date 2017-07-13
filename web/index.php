@@ -51,7 +51,7 @@
 						<div class="banner-content">
 							<h1>Lorem ipsum for sale</h1>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
-							<a href="https://maps.google.com/maps/ms?msid=202710380262504459557.0004a6436624b3b79ce01&msa=0&ll=14.563148,121.046977&spn=0.034517,0.063214&iwloc=0004cb0acfd3798f30d91" target="_blank" class="btn btn-ghost">View Map</a>
+							<a href="https://www.google.com.ph/maps/place/Brio+Tower,+Amapola,+Makati,+Metro+Manila/@14.5629618,121.0403702,17z/data=!3m1!4b1!4m5!3m4!1s0x3397c857073aa037:0x553b3ad7babaf790!8m2!3d14.5629618!4d121.0425589" target="_blank" class="btn btn-ghost">View Map</a>
 						</div>
 					</div>
 				</div>
