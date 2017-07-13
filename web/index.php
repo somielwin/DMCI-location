@@ -16,13 +16,14 @@
 </head>
 <body>
 <section id="main-container">
-	<div class="popup-wrap" id="thankyou-page">
+	<div class="popup-wrap active" id="thankyou-page">
 		<div class="popup-content">
 			<a href="#" class="c-close">&times;</a>
 			<h2>Thank You </h2>
 			<p>We will contact you as soon as able. <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
 
-			<a href="#" class="btn btn-ghost">Go to Homepage</a>
+			<a href="#" class="btn btn-ghost">Go to homepage</a>
+			<a href="#" class="btn btn-primary">See other properties</a>
 		</div>
 	</div>
 	<div class="chat-module">
@@ -41,7 +42,7 @@
 	<section id="main-wrapper">
 		<section class="banner-wrap">
 			<div class="banner-wrap-map">
-				<div class="banner-map"><a href="#" class="map-link"><img src="images/page_template/location-mobile.jpg" alt=""></a></div>
+				<div class="banner-map"><a href="https://maps.google.com/maps/ms?msid=202710380262504459557.0004a6436624b3b79ce01&msa=0&ll=14.563148,121.046977&spn=0.034517,0.063214&iwloc=0004cb0acfd3798f30d91" target="_blank" class="map-link"><img src="images/page_template/location-mobile.jpg" alt=""></a></div>
 			</div>
 			<div class="table-wrap">
 				<div class="table-cell">
@@ -127,6 +128,7 @@
 							<input type="tel" id="contact-num" name="" value="" maxLength="13" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
 							<p class="required-info">Please input a valid contat number</p>
 						</div>
+						<hr>
 						<div class="custom-checkbox">
 							<input type="checkbox" id="terms-checkbox"/>
 							<label for="terms-checkbox"><span style="color:#9d0202; font-weight:bold;">*</span> I agree to the DMCI Homes <a href="#" style="color:#5483eb;">Privacy Policy</a> as guided by RA10173 or the Philippine Data Privacy Act of 2012.</label>

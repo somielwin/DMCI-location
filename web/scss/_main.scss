@@ -102,6 +102,16 @@ strong {
 	border-radius: 4px;
 	border: none;
 	outline: none;
+	-webkit-apperance: none;
+	-moz-apperance: none;
+	apperance: none;
+
+	&.btn-primary {
+
+		&:hover {
+			color: #fff;
+		}
+	}
 }
 
 .text-center {
@@ -355,6 +365,10 @@ strong {
 		left: 0;
 		z-index: 1;
 
+		@include breakpoint(tablet2) {
+			display: none;
+		}
+
 		&:before {
 			content:'';
 			display: block;
@@ -569,6 +583,13 @@ strong {
 		padding: 50px 15px 15px;
 	}
 
+	hr {
+		border: none;
+		border-top: 1px solid #f2f2f2;
+		margin: 15px auto 25px;
+		max-width: 300px;
+	}
+
 	form {
 		max-width: 562px;
 		margin: 0 auto;
@@ -598,9 +619,6 @@ strong {
 		padding: 0px 35px;
 		font-family: $defaultFont;
 		text-transform: uppercase;
-		
-
-		
 	}
 
 	.btn:disabled {
@@ -614,7 +632,7 @@ strong {
 	position: relative;
 
 	@include breakpoint(tablet2) {
-		margin: 0px 0px 15px;
+		margin: 0px 0px 25px;
 	}
 
 	&.error {
@@ -668,6 +686,9 @@ strong {
 		padding: 12px 15px;
 		font-size: 16px;
 		border-radius: 4px;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+		appearance: none;
 
 		@include breakpoint(tablet) {
 			padding: 10px 15px;
@@ -1063,5 +1084,11 @@ strong {
 
 	.btn {
 		margin-top: 35px;
+
+		&.btn-ghost {
+			background: transparent;
+			border: 1px solid $coBlue;
+			color: $coBlue;
+		}
 	}
 }

@@ -192,7 +192,7 @@ $(document).ready(function() {
 		}
 	});
 	
-	$('.c-close').click(function(e){
+	$('.c-close, .popup-content .btn-primary').click(function(e){
 		e.preventDefault();
 
 		$('.popup-wrap').removeClass('active');
