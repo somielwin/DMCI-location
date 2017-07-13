@@ -1005,10 +1005,12 @@ strong {
   text-transform: uppercase;
   -webkit-appearance: none;
   -moz-appearance: none;
+  cursor: pointer;
 }
 
 .inquire-form .btn:disabled {
   background: #dddddd;
+  cursor: default;
 }
 
 .input-wrap {
