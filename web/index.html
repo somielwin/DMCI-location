@@ -126,7 +126,7 @@
 						</div>
 						<div class="input-wrap">
 							<label for="">Contact Number<span>*</span></label>
-							<input type="tel" id="contact-num" name="" value="" maxlength="15">
+							<input type="tel" id="contact-num" name="" value="" maxlength="15" onkeypress="return event.charCode === 0 || /[\d-+=,]/.test(String.fromCharCode(event.charCode));">
 							<p class="required-info">Input a valid mobile or landline number</p>
 						</div>
 						<hr>
