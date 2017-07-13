@@ -35,7 +35,7 @@
 			<div class="logo fl"><a href="#"><img src="images/page_template/logo.png" alt=""></a></div>
 			<div class="inquire fr">
 				<a href="#" class="btn btn-primary btn-inquire">Inquire Now</a>
-				<a href="#" class="btn btn-ghost btn-chat">Chat Us</a>
+				<a href="#" class="btn btn-ghost btn-chat">Let's Chat</a>
 			</div>
 			<div class="clr"></div>
 		</div>
