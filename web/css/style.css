@@ -981,6 +981,8 @@ strong {
   padding: 0px 35px;
   font-family: "Avenir", "Helvetica", "sans-serif";
   text-transform: uppercase;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 .inquire-form .btn:disabled {
@@ -1045,6 +1047,12 @@ strong {
   display: inline-block;
   margin: 0px 3px;
   font-weight: 700;
+}
+
+.input-wrap input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .input-wrap input[type="text"], .input-wrap input[type="email"], .input-wrap input[type="tel"] {
