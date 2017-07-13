@@ -190,7 +190,7 @@ $(document).ready(function() {
 		}
 	});
 	
-	$('.c-close, .popup-content .btn-primary').click(function(e){
+	$('.c-close').click(function(e){
 		e.preventDefault();
 
 		$('.popup-wrap').removeClass('active');
