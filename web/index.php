@@ -49,7 +49,7 @@
 						<div class="banner-content">
 							<h1>Lorem ipsum for sale</h1>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
-							<a href="#" class="btn btn-ghost">View Map</a>
+							<a href="https://maps.google.com/maps/ms?msid=202710380262504459557.0004a6436624b3b79ce01&msa=0&ll=14.563148,121.046977&spn=0.034517,0.063214&iwloc=0004cb0acfd3798f30d91" target="_blank" class="btn btn-ghost">View Map</a>
 						</div>
 					</div>
 				</div>

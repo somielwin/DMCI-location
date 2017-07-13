@@ -275,6 +275,7 @@ header.minimize .inquire a {
 .inquire a.btn:hover {
   background: #1F9257;
   box-shadow: 0 2px 8px 0 transparent;
+  color: #ffffff;
 }
 
 footer {
@@ -348,7 +349,7 @@ a {
 }
 
 a:hover {
-  color: #00349a !important;
+  color: #00349a;
 }
 
 strong {
@@ -626,7 +627,7 @@ strong {
 }
 
 .banner-content a.btn:hover {
-  background: rgba(40, 82, 166, 0.6);
+  background: rgba(40, 82, 166, 0.8);
   color: #ffffff;
 }
 
@@ -950,6 +951,10 @@ strong {
   .inquire-form p {
     font-size: 14px;
   }
+}
+
+.inquire-form p a:hover {
+  color: #00349a !important;
 }
 
 .inquire-form .btn {

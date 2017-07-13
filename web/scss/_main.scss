@@ -35,7 +35,7 @@ a {
 	@include transition(all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1));
 
 	&:hover {
-		color: $coBlue !important;
+		color: $coBlue;
 	}
 }
 
@@ -284,7 +284,7 @@ strong {
 		line-height: 45px;
 
 		&:hover {
-			background: rgba(40, 82, 166, 0.6);
+			background: rgba(40, 82, 166, 0.8);
 			color: $coWhite;
 		}
 
@@ -587,6 +587,10 @@ strong {
 
 		@include breakpoint(tablet2) {
 			font-size: 14px;
+		}
+
+		a:hover {
+			color: $coBlue !important;
 		}
 	}
 
