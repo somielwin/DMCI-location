@@ -70,6 +70,7 @@ header {
 .logo {
     max-width: 190px;
     @include transition(all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1));
+    margin-top: 5px;
 
     img {
         width: 100%;
@@ -88,11 +89,32 @@ header {
 
     a.btn {
         box-shadow: 0 2px 8px 0 rgba(0,0,0,0.12);
+        border: 1px solid $coGreen;
 
         &:hover {
             background: $coGreenHover;
             box-shadow: 0 2px 8px 0 rgba(0,0,0,0);
             color: $coWhite;
+        }
+    }
+
+    .btn-ghost {
+        border: 1px solid $coGreen;
+        background: transparent;
+        color: $coGreen;
+        box-shadow: none !important;
+
+        &:hover {
+            color: $coWhite;
+            background: $coGreen !important;
+        }
+
+    }
+
+    .btn-chat {
+
+        @include breakpoint(tablet2) {
+            display: none;
         }
     }
 }

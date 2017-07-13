@@ -22,9 +22,8 @@
 			<a href="#" class="c-close">&times;</a>
 			<h2>Thank You </h2>
 			<p>We will contact you as soon as able. <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
-
-			<a href="#" class="btn btn-ghost">Go to homepage</a>
-			<a href="#" class="btn btn-primary">See other properties</a>
+			<a href="https://www.dmcihomes.com/" target="_blank" class="btn btn-ghost">Go to main Website</a>
+			<a href="https://www.dmcihomes.com/property-finder" target="_blank" class="btn btn-primary">See other properties</a>
 		</div>
 	</div>
 	<div class="chat-module">
@@ -35,7 +34,8 @@
 		<div class="container">
 			<div class="logo fl"><a href="#"><img src="images/page_template/logo.png" alt=""></a></div>
 			<div class="inquire fr">
-				<a href="#" class="btn btn-primary">Inquire Now</a>
+				<a href="#" class="btn btn-primary btn-inquire">Inquire Now</a>
+				<a href="#" class="btn btn-ghost btn-chat">Chat Us</a>
 			</div>
 			<div class="clr"></div>
 		</div>
@@ -115,7 +115,7 @@
 						<p style="float:right; margin-bottom: 0; font-style:italic; font-size:12px;"><span style="color:#9d0202; font-weight:bold;">*</span>Indicates required field.</p>
 						<div class="clr"></div>
 						<div class="input-wrap">
-							<label for="">First Name <span>*</span></label>
+							<label for="">Name <span>*</span></label>
 							<input type="text" id="first-name" name="" value="">
 							<p class="required-info">This field is required</p>
 						</div>
@@ -155,22 +155,22 @@
 					<div class="owl-carousel owl-theme">
 						<div class="item">
 							<div class="featuredprop-item">
-								<a href="#">
-									<div class="property-status status-ready">
+								<a href="https://www.dmcihomes.com/zinnia-towers" target="_blank">
+									<div class="property-status">
 										<p>Ready for OCCUPANCY</p>
 									</div>
 									<div class="featuredprop-img"><img src="images/page_template/other-prop1.jpg" alt=""></div>
 									<div class="feature-info">
-										<p>Willow Park Homes <span>Laguna</span></p>
+										<p>Zinnia Towers <span>Quezon City</span></p>
 									</div>
 								</a>
 							</div>
 						</div>
 						<div class="item">
 							<div class="featuredprop-item">
-								<a href="#">
+								<a href="https://www.dmcihomes.com/the-celandine" target="_blank">
 									<div class="property-status status-new">
-										<p>Preselling</p>
+										<p>New</p>
 									</div>
 									<div class="featuredprop-img"><img src="images/page_template/other-prop2.jpg" alt=""></div>
 									<div class="feature-info">
@@ -181,9 +181,9 @@
 						</div>
 						<div class="item">
 							<div class="featuredprop-item">
-								<a href="#">
+								<a href="https://www.dmcihomes.com/levina-place" target="_blank">
 									<div class="property-status">
-										<p>Under Construction</p>
+										<p>Ready For OCCUPANCY</p>
 									</div>
 									<div class="featuredprop-img"><img src="images/page_template/other-prop3.jpg" alt=""></div>
 									<div class="feature-info">
@@ -192,45 +192,7 @@
 								</a>
 							</div>
 						</div>
-						<div class="item">
-							<div class="featuredprop-item">
-								<a href="#">
-									<div class="property-status status-ready">
-										<p>Ready for OCCUPANCY</p>
-									</div>
-									<div class="featuredprop-img"><img src="images/page_template/other-prop1.jpg" alt=""></div>
-									<div class="feature-info">
-										<p>Willow Park Homes <span>Laguna</span></p>
-									</div>
-								</a>
-							</div>
-						</div>
-						<div class="item">
-							<div class="featuredprop-item">
-								<a href="#">
-									<div class="property-status status-new">
-										<p>Preselling</p>
-									</div>
-									<div class="featuredprop-img"><img src="images/page_template/other-prop2.jpg" alt=""></div>
-									<div class="feature-info">
-										<p>The Celandine <span>Quezon City</span></p>
-									</div>
-								</a>
-							</div>
-						</div>
-						<div class="item">
-							<div class="featuredprop-item">
-								<a href="#">
-									<div class="property-status">
-										<p>Under Construction</p>
-									</div>
-									<div class="featuredprop-img"><img src="images/page_template/other-prop3.jpg" alt=""></div>
-									<div class="feature-info">
-										<p>Levina Tower<span>Quezon City</span></p>
-									</div>
-								</a>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 			</div>

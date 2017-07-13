@@ -271,12 +271,31 @@ header.minimize .inquire a {
 
 .inquire a.btn {
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.12);
+  border: 1px solid #08a957;
 }
 
 .inquire a.btn:hover {
   background: #1F9257;
   box-shadow: 0 2px 8px 0 transparent;
   color: #ffffff;
+}
+
+.inquire .btn-ghost {
+  border: 1px solid #08a957;
+  background: transparent;
+  color: #08a957;
+  box-shadow: none !important;
+}
+
+.inquire .btn-ghost:hover {
+  color: #ffffff;
+  background: #08a957 !important;
+}
+
+@media (max-width: 767px) {
+  .inquire .btn-chat {
+    display: none;
+  }
 }
 
 footer {
@@ -1461,7 +1480,7 @@ strong {
 }
 
 .popup-content .c-close {
-  color: #00349a;
+  color: #9d0202;
   font-size: 24px;
   position: absolute;
   top: 4px;

@@ -43,7 +43,7 @@ $(document).ready(function() {
 		$('html').addClass('bp-touch');
 	}
 
-	$('.inquire .btn').click(function(e){
+	$('.btn-inquire').click(function(e){
 		e.preventDefault();
 		var offSet = $('.inquire-wrap').offset();
 		var offsetTop = offSet.top;
@@ -183,8 +183,6 @@ $(document).ready(function() {
 		if($('#first-name').val() != '' && $('#email-add').val() != '' && $('#contact-num').val().length >= 11 && $('#contact-num').val() != '') {
 			$('.loading-spinner-wrapper').addClass('active');
 			$('.popup-wrap').addClass('active');
-			$('.inquire-form').remove();
-			$('.inquire').remove();
 			return true;
 			
 		} else {
