@@ -173,14 +173,14 @@ $(document).ready(function() {
         	isvalidate = false;
         }
 
-		if(!$('#contact-num').val() == '' && $('#contact-num').val().length >= 11) {
+		if(!$('#contact-num').val() == '' && $('#contact-num').val().length >= 6) {
         	$('#contact-num').closest('.input-wrap').removeClass('error');
         	isvalidate = true;
         } else {
         	isvalidate = false;
         }
 
-		if($('#first-name').val() != '' && $('#email-add').val() != '' && $('#contact-num').val().length >= 11 && $('#contact-num').val() != '') {
+		if($('#first-name').val() != '' && $('#email-add').val() != '' && $('#contact-num').val().length >= 6 && $('#contact-num').val() != '') {
 			$('.loading-spinner-wrapper').addClass('active');
 			$('.popup-wrap').addClass('active');
 			return true;
