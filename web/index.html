@@ -16,7 +16,7 @@
 </head>
 <body>
 <section id="main-container">
-	<div class="popup-wrap active" id="thankyou-page">
+	<div class="popup-wrap" id="thankyou-page">
 		<div class="popup-content">
 			<a href="#" class="c-close">&times;</a>
 			<h2>Thank You </h2>
