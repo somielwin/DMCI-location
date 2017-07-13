@@ -416,6 +416,7 @@ strong {
   display: inline-block;
   line-height: 47px;
   padding: 0px 25px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
   border: none;
   outline: none;
@@ -926,6 +927,7 @@ strong {
 .inquire-form {
   background: #ffffff;
   margin: -62px auto 80px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
   max-width: 790px;
   position: relative;
@@ -1053,6 +1055,7 @@ strong {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  -webkit-border-radius: 4px;
 }
 
 .input-wrap input[type="text"], .input-wrap input[type="email"], .input-wrap input[type="tel"] {
@@ -1061,6 +1064,7 @@ strong {
   border: 1px solid #c2c2c2;
   padding: 12px 15px;
   font-size: 16px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1377,6 +1381,7 @@ strong {
   width: 17px;
   height: 17px;
   border: 1px solid #ccc;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
 }
 
